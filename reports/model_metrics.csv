@@ -1,8 +1,8 @@
-SVM
-0.846
-0.619
-0.3
-0.867
-0.58
-0.617
-0.598
+,SVM
+PR-AUC,0.619
+ROC-AUC,0.846
+Recall (class 1),0.617
+Precision (Class 1),0.58
+F1-Score (Class 1),0.598
+Accuracy,0.867
+Optimal Threshold,0.3

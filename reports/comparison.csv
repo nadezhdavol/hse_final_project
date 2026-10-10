@@ -1,0 +1,8 @@
+,Classic,Extended,difference
+PR-AUC,0.329,0.619,0.29
+ROC-AUC,0.697,0.846,0.149
+Recall (class 1),0.489,0.617,0.128
+Precision (Class 1),0.303,0.58,0.277
+F1-Score (Class 1),0.374,0.598,0.224
+Accuracy,0.738,0.867,0.129
+Optimal Threshold,0.55,0.3,-0.25
