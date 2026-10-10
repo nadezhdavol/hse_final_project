@@ -1,9 +1,5 @@
-# HR Attrition Prediction: интеграция поколенческих, поведенческих и сезонных факторов
-
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.x-orange.svg)](https://scikit-learn.org/)
-[![XGBoost](https://img.shields.io/badge/XGBoost-2.x-red.svg)](https://xgboost.readthedocs.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Анализ и прогнозирование оттока сотрудников
+## на основе поколенческих, поведенческих и сезонно-биоритмических факторов: интеграция в классическую HR-модель
 
 Итоговый проект курса «Аналитик данных» НИУ ВШЭ.
 
@@ -66,7 +62,7 @@
 8. **Степень удовлетворённости** распределена равномерно между поколениями.
 9. **Степень удовлетворённости** и **Переработки** являются ключевыми предикторами оттока.
 
-Подробнее см. ноутбук в `notebooks/`.
+Подробнее см. ноутбук в [`notebooks/`](https://github.com/nadezhdavol/hse_final_project/tree/main/notebooks).
 
 ---
 
@@ -101,13 +97,13 @@
 
 | Метрика | Classic | Extended | Δ |
 |---|---|---|---|
-| ROC-AUC | <0.697> | <0.846> | <+0.149> |
-| PR-AUC | <0.329> | <0.619> | <+0.290> |
-| F1 (attrition) | <0.374> | <0.598> | <+0.224> |
-| Recall (attrition) | <0.489> | <0.617> | <+0.128> |
-| Precision (attrition) | <0.303> | <0.580> | <+0.277> |
-| Accuracy | <0.738> | <0.867> | <+0.129> |
-| Optimal Threshold| <0.55> | <0.3> | <-0.25> |
+| ROC-AUC | 0.697 | 0.846 | +0.149 |
+| PR-AUC | 0.329 | 0.619 | +0.290 |
+| F1 (attrition) | 0.374 | 0.598 | +0.224 |
+| Recall (attrition) | 0.489 | 0.617 | +0.128 |
+| Precision (attrition) | 0.303 | 0.580 | +0.277 |
+| Accuracy | 0.738 | 0.867 | +0.129 |
+| Optimal Threshold| 0.55 | 0.3 | -0.25 |
 
 > **Вывод:** расширенная модель показала прирост по всем ключевым метрикам, что подтверждает гипотезу о ценности интеграции поведенческих и поколенческих слоёв.
 
@@ -115,16 +111,16 @@
 
 | # | Признак | Важность |
 |---|---|---|
-| 1 | <OverTime> | <0.205> |
-| 2 | <Overall_Satisfaction> | <0.094> |
-| 3 | <NumCompaniesWorked> | <0.071> |
-| 4 | <DistanceFromHome> | <0.043> |
-| 5 | <StockOptionLevel> | <0.04> |
-| 6 | <YearsSinceLastPromotion> | <0.038> |
-| 7 | <BusinessTravel> | <0.034> |
-| 8 | <JobSatisfaction> | <0.018> |
-| 9 | <EnvironmentSatisfaction> | <0.015> |
-| 10 | <WorkLifeBalance> | <0.013> |
+| 1 | OverTime | 0.205 |
+| 2 | Overall_Satisfaction | 0.094 |
+| 3 | NumCompaniesWorked | 0.071 |
+| 4 | DistanceFromHome | 0.043 |
+| 5 | StockOptionLevel | 0.04 |
+| 6 | YearsSinceLastPromotion | 0.038 |
+| 7 | BusinessTravel | 0.034 |
+| 8 | JobSatisfaction | 0.018 |
+| 9 | EnvironmentSatisfaction | 0.015 |
+| 10 | WorkLifeBalance | 0.013 |
 
 
 ![Feature Importance](images/feature_importance.png)
