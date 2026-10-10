@@ -9,6 +9,20 @@
 
 ---
 
+## 📊 Материалы проекта
+
+- 📄 [Презентация проекта (PDF)](presentation/HR_attrition_presentation.pdf)
+- 📈 [Дашборд в Яндекс DataLens](https://datalens.yandex/<ваш_id>)
+- 📓 [Jupyter ноутбук с анализом](notebooks/hse_final_project_HR_model.ipynb)
+
+### Превью дашборда
+
+[![Dashboard Preview](images/dashboard_preview.png)](https://datalens.yandex/<ваш_id>)
+
+*Кликните на изображение, чтобы открыть интерактивный дашборд*
+
+---
+
 ## О проекте
 
 Компания теряет сотрудников. Классические HR-модели прогнозируют отток на основе демографии, структуры и компенсации, но не учитывают поведенческие и поколенческие аспекты.
@@ -176,6 +190,8 @@ final_project/
 │ ├── feature_importance.csv
 │ ├── model_metrics.csv
 │ ├── comparison.csv
+├── presentation/               
+│ └── HR_attrition_presentation.pdf
 ├── images/ # Графики для README
 ├── requirements.txt
 └── README.md
