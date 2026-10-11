@@ -213,4 +213,4 @@ final_project/
 
 **Email**: nn_volodina@email.ru
 
-GitHub: @nadezhda_vol
+GitHub: [@nadezhda_vol](https://github.com/nadezhdavol)
