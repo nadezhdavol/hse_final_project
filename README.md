@@ -12,7 +12,7 @@
 ## 📊 Материалы проекта
 
 - 📄 [Презентация проекта (PDF)](presentation/HR_attrition_presentation.pdf)
-- 📈 [Дашборд в Яндекс DataLens](https://datalens.yandex/<ваш_id>)
+- 📈 [Дашборд в Яндекс DataLens](https://datalens.ru/agge1svchk9mt-hr-analitika)
 - 📓 [Jupyter ноутбук с анализом](notebooks/hse_final_project_HR_model.ipynb)
 
 ### Превью дашборда
