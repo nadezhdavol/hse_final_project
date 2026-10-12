@@ -17,7 +17,7 @@
 
 ### Превью дашборда
 
-[![Dashboard Preview](images/dashboard_preview.png)](https://datalens.yandex/<ваш_id>)
+[![Dashboard Preview](images/dashboard_preview.png)](https://datalens.ru/agge1svchk9mt-hr-analitika)
 
 *Кликните на изображение, чтобы открыть интерактивный дашборд*
 
