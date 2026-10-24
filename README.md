@@ -173,6 +173,7 @@
 
 ## Структура репозитория
 
+```
 final_project/
 ├── data/
 │ ├── raw/ # Исходные данные
@@ -195,6 +196,7 @@ final_project/
 ├── images/ # Графики для README
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
